@@ -14,10 +14,10 @@
 }
 }
     if (dirreccion == "bajas") {
-
-	for(ultimoPiso; ultimoPiso <= pisoActual; ultimoPiso--) {
-		console.log("Estas en el piso" - pisoActual); 
-	if (ultimoPiso == pisoSeleccionado) {
+    	pisoActual = 20;
+	for(ultimoPiso; pisoActual >= primerPiso; pisoActual--) {
+		console.log("Estas en el piso" + pisoActual); 
+	if (pisoActual == pisoSeleccionado) {
 		alert ("llegaste");
 		}
 }
